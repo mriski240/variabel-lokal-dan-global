@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int nilaiFunction ()
+{
+	int x = 50;
+	return x;
+}
+int nilaiFunction2 ()
+{
+	int y = 60;
+	return y;
+}
+int main ()
+{
+	int x = 25;
+	int y = 30;
+	cout << "Variabel lokal dari fungsi utama " << x << endl;
+	cout << "variabel lokal dari nilaiFunction " << nilaiFunction() << endl;
+	cout << "variabel lokal dari fungsi utama2 " << y << endl;
+	cout << "variabel lokal dari nilaiFunction2 " << nilaiFunction2() << endl;
+	
+}
